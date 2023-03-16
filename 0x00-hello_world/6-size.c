@@ -1,10 +1,10 @@
 #include<stdio.h>
-/*
- * main - use size of and return type data
+/**
+ * main - Entry point;
  *
  * Description: 'print size of all datatypes char int float'
  *
- * Return : always 0
+ * Return: Always 0;
  */
 int main(void)
 {
