@@ -1,11 +1,14 @@
 #include<stdio.h>
 /*
- * main - size of
+ * main - use size of and return type data
+ *
+ * Description: 'print size of all datatypes char int float'
  *
  * Return : always 0
  */
 int main(void)
 {
+
 	char a;
 	int b;
 	long int c;
