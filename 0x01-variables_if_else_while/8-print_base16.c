@@ -9,7 +9,7 @@ int main(void)
 	int small;
 	int hex;
 
-	for (small = 0; small < 9; small++)
+	for (small = 0; small < 10; small++)
 		putchar('0' + small);
 	for (hex = 97; hex < 103; hex++)
 		putchar(hex);
