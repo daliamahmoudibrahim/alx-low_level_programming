@@ -11,13 +11,9 @@ int main(void)
 	int caps;
 
 	for (small = 97; small < 123; small++)
-	{
-		     putchar(small);
-	}
+		putchar(small);
 	for (caps = 65; caps < 91; caps++)
-	{
-		     putchar(caps);
-	}
+		putchar(caps);
 	putchar('\n');
 	return (0);
 }
