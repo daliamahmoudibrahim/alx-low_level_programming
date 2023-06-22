@@ -2,8 +2,8 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 /**
- * print_numbers- print numbers and separat in symbol
- * @*separator: the symbol
+ * print_strings- print strings and separat in symbol
+ * @separator: the symbol
  * @n: the number of argument
  * Return: (0)
  */
@@ -14,20 +14,19 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	char *str;
 
 	va_start(string, n);
-	
 	if (separator == NULL)
 	{
 		separator = "";
 	}
 	for (i = 0; i < n; i++)
 	{
-		str = va_arg(string , char *);
-		if(str == NULL)
+		str = va_arg(string, char *);
+		if (str == NULL)
 		{
 			printf("(nil)");
 			break;
 		}
-		if(i == n - 1)
+		if (i == n - 1)
 		{
 			printf("%s\n", str);
 			break;
